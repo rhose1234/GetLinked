@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden !important;
+    text-decoration: none !important;
+}
+h2 span {
+    color: #D434FE !important;
+}
+.row>* {
+    flex-shrink: 0;
+    /* width: 100%; */
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+}
+#hero{
+    background: #140D27;
+    /* background: radial-gradient(ellipse at 41% 41%, rgba(212, 52, 254, 1) 0%, rgba(20, 13, 39, 1) 24%, rgba(20, 13, 39, 1) 32%, rgba(20, 13, 39, 1) 100%, rgba(212, 52, 254, 1) 120%); */
+    color: #fff;
+    text-decoration: none !important;      
+}
+#hero h2, i{
+    font-weight: 800 !important;
+}
+
+#hero h2 img{
+    width: 40px ;
+}
+#hero .creative{
+   
+    top: 22%;
+    left: 36% !important;
+    
+
+}
+
+#hero h2 span{
+    color: #D434FE;
+}
+
+ a{
+color:#fff !important;
+background: linear-gradient(rgba(255, 38, 185, 1), rgba(212, 52, 254, 1) , rgba(144, 58, 255, 1));
+text-decoration: none !important;
+border-radius: 15px !important;
+
+text-align: center;
+/* align-items: center; */
+}
+a:hover{
+    background: transparent !important;
+   
+    border: 2px solid #D434FE !important;
+}
+#hero i::after{
+    
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 60%;
+    height:  15px !important;
+    width: 40%;
+    border: solid 4px #FF26B9;
+    border-color: #FF26B9 transparent transparent transparent;
+    border-radius: 100%;
+        
+}
+.time-counter h1{
+    font-weight: 300 !important;
+   
+}
+.time-counter small{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+}
+#introduction{
+    background: #140D27 ;
+    color: #fff;
+     
+
+}
+
+#rules{
+    background: #140D27;
+    color: #fff;
+}
+
+#judging{
+    background: #140D27;
+    color: #fff;
+}
+
+#judging p{
+    font-size: 15px;
+}
+#judging h6{
+    color: #D434FE;
+    font-size: 16px;
+    font-weight: 500;
+}
+#faq{
+    background: #140D27;
+    color: #fff;
+}
+/* .faqq{
+    background-color: transparent !important;
+    border-bottom: 2px solid #D434FE !important;
+    margin-top: 20px !important;
+} */
+.faq-accordion{
+    margin-top: 30px !important;
+    background-color: transparent !important;
+    border-bottom: 2px solid #D434FE !important;
+    margin-top: 20px !important;
+    padding-bottom:  10px !important;
+}
+.faqq{
+    margin-top: 15px !important;
+}
+.faqq p{
+    color: #FFf !important;
+    font-size: 20px !important;
+}
+#timeline {
+    background: #140D27;
+    color: #fff !important  ;
+}
+
+.timeline ul h4{
+    color:  #D434FE !important;
+
+
+}
+
+
+/* Media query for screens with a maximum width of 768 pixels */
+@media (max-width: 768px) {
+#hero i::after {
+
+      
+        bottom: -8px;
+        left: 60%;
+        height: 10px !important;
+        width: 40%;
+        border: solid 4px #FF26B9;
+        border-color: #FF26B9 transparent transparent transparent;
+        border-radius: 120%;
+
+
+    }
+#hero .creative {
+
+    top: 12%;
+    left: 68% !important;
+
+
+}
+        
+  /* You can add more styles for smaller screens here */
+}
+
+/* Media query for screens with a minimum width of 1200 pixels */
+@media (min-width: 1200px) {
+  
+    
+  /* You can add more styles for larger screens here */
+}
